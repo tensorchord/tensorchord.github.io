@@ -1,0 +1,25 @@
+$primary_color: #E66767;
+$linear_start: #F0B0A8;
+$linear_end: #d4001f;
+
+html {
+    a {
+        color: $primary_color;
+    }
+    a:hover {
+        color: $primary_color;
+    }
+
+    .btn-primary {
+        background-color: $primary_color;
+        border-color: $primary_color;
+    }
+    .btn-primary:hover {
+        background-color: $primary_color;
+        border-color: $primary_color;
+    }
+
+    .header-bar {
+        border-image-source: linear-gradient(90deg, $linear_start, $primary_color, $linear_end);
+    }
+}

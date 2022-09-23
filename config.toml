@@ -24,7 +24,7 @@ ganalytics = "G-HRD26FG2QW"
 
 [extra.schema]
 type = "Organization"
-logo = "logo-doks.png"
+logo = "favicon.png"
 twitter = "https://twitter.com/tensorchord"
 github = "https://github.com/tensorchord"
 

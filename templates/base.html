@@ -1,0 +1,6 @@
+{% extends "adidoks/templates/base.html" %}
+
+{% block seo %}
+{{ super() }}
+<link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
+{% endblock seo %}
