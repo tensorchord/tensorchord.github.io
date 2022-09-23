@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://tensorchord.ai"
+base_url = "/"
 title = "TensorChord"
 theme = "adidoks"
 default_language = "en"
@@ -49,7 +49,7 @@ weight = 10
 
 # Footer contents
 [extra.footer]
-info = "<a href='emailto:envd-maintainers@tensorchord.ai'>Contact Us</a>"
+info = "<a href='mailto:envd-maintainers@tensorchord.ai'>Contact Us</a>"
 
 [[extra.footer.nav]]
 name = "Career"
