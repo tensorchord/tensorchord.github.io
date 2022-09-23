@@ -49,7 +49,7 @@ weight = 10
 
 # Footer contents
 [extra.footer]
-info = "<a href='emailto:envd-maintainers@tensorchord.ai'>Contact Us</a>"
+info = "<a href='mailto:envd-maintainers@tensorchord.ai'>Contact Us</a>"
 
 [[extra.footer.nav]]
 name = "Career"
