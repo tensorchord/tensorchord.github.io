@@ -1,0 +1,163 @@
+body {
+    font-family: "Inter";
+    background: #F2F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.logo>img {
+    width: 40px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 8px;
+
+}
+
+.logo>p {
+    width: 154px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient(95.17deg, #56A6C9 -7.15%, #1949C5 114.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.items {
+    display: flex;
+    padding: 0px;
+    gap: 40px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.envd {
+    font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(84.89deg, #2344B8 -3.17%, #A840B9 97.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+
+}
+
+.items>a {
+    color: #7e899f;
+}
+
+.items>img {
+    width: 20px;
+    height: 16.17px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    display: flex;
+    align-items: center;
+    text-transform: Titlecase;
+
+    background: linear-gradient(95.17deg, #56A6C9 -7.15%, #1949C5 114.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.slogen {
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 77px;
+    color: #3C5664;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 550px;
+}
+
+.but {
+    width: 224px;
+    height: 56px;
+    padding: 0;
+    margin: 0;
+
+    background: linear-gradient(95.17deg, #56A6C9 -7.15%, #1949C5 114.66%);
+    box-shadow: 2px 4px 26px #B5C2DC;
+    border-style: none;
+    border-radius: 50px;
+
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+    cursor: pointer;
+}
+
+.icon {
+    background: url(https://user-images.githubusercontent.com/52693877/192075574-e64d6dd9-2770-4d63-a4f3-92fbe5cc0e44.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+.content {
+    margin-right: auto;
+}
+
+.data-scientist {
+    position: relative;
+    animation-name: float;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 8px;
+        top: 12px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
