@@ -88,7 +88,6 @@ main {
 
     display: flex;
     align-items: center;
-    text-transform: Titlecase;
 
     background: linear-gradient(95.17deg, #56A6C9 -7.15%, #1949C5 114.66%);
     -webkit-background-clip: text;
@@ -96,7 +95,7 @@ main {
     background-clip: text;
 }
 
-.slogen {
+.slogan {
     font-weight: 200;
     font-size: 64px;
     line-height: 77px;
@@ -127,14 +126,13 @@ main {
 }
 
 .icon {
-    background: url(https://user-images.githubusercontent.com/52693877/192075574-e64d6dd9-2770-4d63-a4f3-92fbe5cc0e44.png) no-repeat;
     width: 32px;
     height: 32px;
     margin-left: auto;
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
-.content {
+.but-content {
     margin-right: auto;
 }
 
