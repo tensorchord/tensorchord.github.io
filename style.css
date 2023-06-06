@@ -62,7 +62,16 @@ nav {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     cursor: pointer;
+}
 
+.modelz {
+    font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(84.89deg, #455946 60%, #E6DB3D 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
 }
 
 .items>a {
